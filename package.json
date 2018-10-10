@@ -1,5 +1,5 @@
 {
-  "name": "mock-aws-s3",
+  "name": "@woebot/mock-aws-s3",
   "description": "Mock AWS S3 SDK for Node.js",
   "version": "3.0.0",
   "homepage": "https://github.com/MathieuLoutre/mock-aws-s3",
@@ -21,13 +21,12 @@
     }
   ],
   "engines": {
-    "node": ">= 0.10.0"
+    "node": ">= 8.0.0"
   },
   "scripts": {
     "test": "grunt"
   },
   "dependencies": {
-    "bluebird": "^3.5.1",
     "fs-extra": "0.6.4",
     "underscore": "1.8.3"
   },
